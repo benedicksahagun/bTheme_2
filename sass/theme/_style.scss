@@ -1,0 +1,38 @@
+
+
+/*----------------------------------
+ BASE - variables, general, fonts
+-------------------------------------*/
+@import "base/fonts";
+@import "base/variables";
+@import "base/general";
+@import "base/helpers";
+@import "base/mixins";
+
+
+/*----------------------------------
+ LAYOUT - single, page, archive, etc
+-------------------------------------*/
+@import "layout/header";
+@import "layout/footer";
+@import "layout/sidebar";
+@import "layout/page";
+@import "layout/single";
+@import "layout/archive";
+@import "layout/search";
+@import "layout/404";
+@import "layout/comments";
+
+/*----------------------------------
+ MODULES - module specific styles
+-------------------------------------*/
+@import "modules/widgets";
+@import "modules/navbar";
+@import "modules/contact-form7";
+@import "modules/search";
+@import "modules/breadcrumbs";
+/*----------------------------------
+ PAGE - page specific tyles
+-------------------------------------*/
+@import "pages/home";
+@import "pages/blog";

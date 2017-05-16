@@ -1,0 +1,47 @@
+#comments{
+	#respond{
+		.comment-form-comment{
+			label{
+				display: block;
+			}
+
+			textarea{
+				width: 100%;
+				resize: none;
+			}
+		}
+	}
+
+	.comment-list{
+		.comment{
+			border: 1px solid #ccc;
+    		padding: 10px;
+    		margin-bottom: 10px;
+
+    		&:last-child{
+    			margin-bottom: 0;
+    		}
+
+			.says{
+				display: none;
+			}
+
+			.comment-author{
+				display: inline-block;
+			}
+
+			.comment-meta{
+				display: inline-block;
+				margin-left: 5px;
+			}
+
+			p{
+				margin-top: 10px;
+			}
+
+			.children{
+				list-style: none;
+			}
+		}
+	}
+}
